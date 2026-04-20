@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Source scripts (notebook is the deliverable)
+src/
+
+# Generated data (reproduced by running the notebook)
+data/blurred/
+data/restored_inverse/
+data/restored_wiener/
+data/enhanced/
+data/thresholded/
+data/comparisons/
+data/enhanced_comparisons/
+data/kernels/
+data/metrics/
+
+# Presentation (not a deliverable)
+*.pptx
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
